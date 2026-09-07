@@ -8,25 +8,25 @@ This document records your project thinking during Week 1 after you complete the
 
 ### 1.1 Working Title
 
-[Enter a provisional project title.]
+Music Device
 
 ### 1.2 Current Concept
 
 Describe what you currently imagine making, designing, researching, performing, or developing. Be as expansive as your current thinking requires; two to three sentences is the minimum. If you are not yet sure what your Culmination Project will be, describe the areas, practices, questions, technologies, or experiences you want to work within instead.
 
-[Write here.]
+I am not 100% sure what my culmination project will be. However, I do want it to involve music in some sort of way. Whether it is physical or digital.
 
 ### 1.3 Participant Experience
 
 What might a participant, audience member, user, or collaborator see, hear, do, understand, or feel?
 
-[Write here.]
+A participant, audience member, or collaborator will hear some sort of musical notes from the notes the user plays.
 
 ### 1.4 Early Unknowns
 
 List at least one important question, uncertainty, or problem that you need to investigate.
 
-- [Write here.]
+- One question I need to investigate is how I can create this culmination project without doing ANY code whatsoever (I hate coding).
 
 ---
 
