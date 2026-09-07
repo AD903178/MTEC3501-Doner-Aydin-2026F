@@ -38,7 +38,7 @@ After watching *The Architecture of Practice: Dismantling the Make-First Misconc
 
 Write 2-4 sentences.
 
-[Write here.]
+One way the SRDMPA framework expands how I was thinking about developing my project is by using that exact framework to start and end my project development. Starting from speculating and ending from assessing.
 
 ---
 
