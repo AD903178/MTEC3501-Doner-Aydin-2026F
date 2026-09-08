@@ -60,13 +60,13 @@ A Proof of Concept (PoC), North Star Vision (NSV), and a Minimum Viable Product 
 
 Briefly distinguish between your project's **content** (what it communicates, investigates, enables, or allows someone to experience) and its **system** (how it is created, organized, delivered, or experienced).
 
-[Write here.]
+My projects "content" is something that allows people to experience how music can sound like, and how you can achieve those sounds you make. On the other hand, it's "system" is organized by pieces that can easily connect (probably not) and form into something.
 
 ### 4.2 Professional Contribution
 
 What part of the project represents the professional work you want others to evaluate you for? Identify any supporting, acquired, collaborative, or provisional components as needed.
 
-[Write here.]
+My project represents my love and passion for music. I want people to evaluate me for how passionate I am for music, whether it's "beeps and boops" or music you can hear in a orchestra. I not only want to have fun making this project, I want people to enjoy trying out my project.
 
 ### 4.3 Project Type Response
 
@@ -74,7 +74,7 @@ After watching *Designing Your Culmination Project*, identify one or more projec
 
 Write 2-4 sentences.
 
-[Write here.]
+A project type that may for my current idea is an physical prop, like an actual musical instrument made out of wood or something similar to that. It could also be something digital like an app where you can switch between instruments and play different instruments.
 
 ### 4.4 Project Origin Response
 
@@ -82,7 +82,7 @@ How did you arrive at this project idea or area of interest, and why did you sel
 
 You may discuss personal experience, prior coursework, creative or technical interests, an existing project, a collaborator, or a possible CHI Meta-Project connection. Your answer may change as the project develops.
 
-[Write here.]
+I arrived at this project idea because of my love of music (as stated above). I played 4 instruments in my time (trumpet, clarinet, guitar, and very little time into the piano), my favorite being the trumpet. I haven't had the time to pick back up the trumpet as they are very expensive, and hard to manage it (valves sticking, pieces deteriorating, etc.)
 
 ---
 
@@ -90,8 +90,8 @@ You may discuss personal experience, prior coursework, creative or technical int
 
 Before Week 2, reread this document and confirm that it represents your current thinking. During Week 1, complete this document on your repository's `main` branch, then commit and push it. You will begin working in a development branch during Week 2.
 
-- [ ] I completed the Initial Project Concept section.
-- [ ] I completed the SRDMPA response.
-- [ ] I completed the Complex Creative Systems response.
-- [ ] I completed the Project Positioning section.
-- [ ] I committed and pushed this document to my repository.
+- [✓] I completed the Initial Project Concept section.
+- [✓] I completed the SRDMPA response.
+- [✓] I completed the Complex Creative Systems response.
+- [✓] I completed the Project Positioning section.
+- [✓] I committed and pushed this document to my repository.
