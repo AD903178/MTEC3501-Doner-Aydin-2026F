@@ -50,7 +50,7 @@ After watching *Complex Creative Systems*, explain how distinguishing among a No
 
 Write 2-4 sentences. You are not expected to define final versions of these scales yet.
 
-[Write here.]
+A Proof of Concept (PoC), North Star Vision (NSV), and a Minimum Viable Product (MVP) affects how I think about my project by how my direction is going to go. I will start by researching, and make a "prototype" and then realize my mistakes and keep trying until I get a result that I like.
 
 ---
 
