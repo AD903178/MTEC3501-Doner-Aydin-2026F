@@ -10,7 +10,7 @@ MusiFlip
 
 Project Format
 
-The form of my project is a physical foldable device; an interactive tool of some sort
+The form of my project is a physical foldable device; an interactive tool 
 
 Project Description
 
