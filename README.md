@@ -42,13 +42,13 @@ The class repository contains course materials, assignments, shared activities, 
 Your project moves iteratively through **Speculate → Research → Design → Make/Produce → Present/Publish → Assess** (SRDMPA). These stages are not a rigid waterfall — you will move back and forth between them repeatedly as your project develops.
 
 ### Speculate
-Initial concepts, speculative writing, brainstorming, alternative possibilities, project scope, and aspirational versions of the project.
+My initial concept was a on-the-go, pocket sized device called MusiFlip that you could use to create and share music and sounds. However, the hardware would be too ambitious so I opted for an app that you could use to create and share music instead, called Pocket Music. However, with enough feedback, I decided to shorten it even more to just create, share, and remix sounds, and now my project is called Soundmix.
 
 ### Research
-Precedent research, technical research, references, experiments, feasibility investigations, and research synthesis. Research sources should be maintained appropriately in Zotero when required by the course.
+My initial research was researching foldable devices such as the newly released IPhone Duo and the recently released Samsung Galaxy Z Fold 8, then I researched DAWs such as GarageBand. Lastly, I researched sharable platforms like Spotify, Freesound.org, and Soundcloud
 
 ### Design
-Design documentation, diagrams, specifications, system architecture, mediation pathways, planning, requirements, and design revisions.
+I plan on using AI to create the app since I have little to no experience in creating apps/websites. The design will be complicated, yet easy to navigate and try out. I don't want the app/website to be too hard to navigate, but also at the same time, don't want to make it too bland.
 
 ### Make / Produce
 Documentation associated with constructing, programming, composing, fabricating, testing, integrating, or otherwise realizing the project. Actual implementation files may live in `/prototype` or in additional project-specific directories you create.
