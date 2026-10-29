@@ -8,11 +8,11 @@ The class repository contains course materials, assignments, shared activities, 
 
 ---
 
-## Project - MusiFlip
+## Project - App/Website
 
 **Student:** - Aydin Doner
 
-**Project Title:** - MusiFlip
+**Project Title:** - Soundmix
 
 **Current Project Description:** - An app that allows you to create, share, and remix sounds from around the world!
 
