@@ -16,7 +16,7 @@ The class repository contains course materials, assignments, shared activities, 
 
 **Current Project Description:** - An app that allows you to create, share, and remix sounds from around the world!
 
-**MTEC 3501 Semester:**
+**MTEC 3501 Semester:** - Fall 2026
 
 **Instructor:** - Professor D. Smith
 
