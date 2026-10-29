@@ -8,13 +8,17 @@ The class repository contains course materials, assignments, shared activities, 
 
 ---
 
-## Project
+## Project - MusiFlip
 
-**Student:**
-**Project Title:**
-**Current Project Description:**
+**Student:** - Aydin Doner
+
+**Project Title:** - MusiFlip
+
+**Current Project Description:** - An app that allows you to create, share, and remix sounds from around the world!
+
 **MTEC 3501 Semester:**
-**Instructor:**
+
+**Instructor:** - Professor D. Smith
 
 ---
 
