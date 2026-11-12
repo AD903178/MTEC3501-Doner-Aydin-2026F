@@ -1,121 +1,134 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
 import './App.css'
 
+function Soundmark() {
+  return (
+    <svg
+      className="soundmark"
+      viewBox="0 0 48 48"
+      fill="none"
+      aria-hidden="true"
+    >
+      <path
+        d="M8 26v-4m8 11V15m8 21V12m8 23V17m8 9v-4"
+        stroke="currentColor"
+        strokeWidth="4"
+        strokeLinecap="round"
+      />
+    </svg>
+  )
+}
+
 function App() {
-  const [count, setCount] = useState(0)
+  const [authMode, setAuthMode] = useState('')
+  const [submitted, setSubmitted] = useState(false)
+
+  function openAuth(mode) {
+    setSubmitted(false)
+    setAuthMode(mode)
+  }
+
+  function closeAuth() {
+    setAuthMode('')
+    setSubmitted(false)
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault()
+    setSubmitted(true)
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <main className="welcome-page">
+      <div className="ambient ambient-one" aria-hidden="true" />
+      <div className="ambient ambient-two" aria-hidden="true" />
+
+      <header className="topbar">
+        <a className="brand" href="#home" aria-label="Soundmix home">
+          <span className="brand-icon"><Soundmark /></span>
+          <span>soundmix</span>
+        </a>
+        <span className="topbar-note">A little more you in every sound.</span>
+      </header>
+
+      <section className="welcome-card" id="home" aria-labelledby="welcome-title">
+        <div className="visualizer" aria-hidden="true">
+          <span /><span /><span /><span /><span /><span /><span />
+          <span /><span /><span /><span /><span /><span /><span />
+          <span /><span /><span /><span /><span /><span /><span />
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+
+        <div className="welcome-content">
+          <div className="eyebrow"><span className="eyebrow-dot" /> YOUR SOUND, YOUR SPACE</div>
+          <div className="hero-mark"><Soundmark /></div>
+          <h1 id="welcome-title">Welcome to <span>Soundmix</span></h1>
+          <p className="tagline">Create and share sounds.</p>
+          <p className="intro">
+            Find your rhythm, make something new, and bring your favorite sounds
+            together.
           </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
 
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
+          <div className="actions">
+            <button className="button button-primary" onClick={() => openAuth('Log in')}>
+              Log in <span aria-hidden="true">→</span>
+            </button>
+            <button className="button button-secondary" onClick={() => openAuth('Sign up')}>
+              Sign up
+            </button>
+          </div>
+          <p className="quiet-note">Good sounds are better shared.</p>
         </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
+
+        <div className="card-footer">
+          <span><span className="status-dot" /> MADE FOR YOUR MOMENTS</span>
+          <span>01 <i /> 01</span>
         </div>
       </section>
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
+      <footer className="page-footer">
+        <span>LISTEN CLOSELY.</span>
+        <span className="footer-wave" aria-hidden="true">〰</span>
+        <span>THERE’S A SOUND FOR THAT.</span>
+      </footer>
+
+      {authMode && (
+        <div className="dialog-backdrop" onMouseDown={closeAuth}>
+          <section
+            className="auth-dialog"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="auth-title"
+            onMouseDown={(event) => event.stopPropagation()}
+          >
+            <button className="dialog-close" onClick={closeAuth} aria-label="Close">
+              ×
+            </button>
+            <div className="dialog-mark"><Soundmark /></div>
+            <p className="dialog-eyebrow">WELCOME TO YOUR SOUND</p>
+            <h2 id="auth-title">{authMode} to Soundmix</h2>
+            <p className="dialog-copy">
+              {authMode === 'Sign up'
+                ? 'Create an account to start making and sharing.'
+                : 'Pick up right where your listening left off.'}
+            </p>
+            <form onSubmit={handleSubmit}>
+              <label htmlFor="email">Email address</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              <label htmlFor="password">Password</label>
+              <input id="password" name="password" type="password" placeholder="At least 8 characters" minLength="8" required />
+              <button className="button button-primary dialog-submit" type="submit">
+                Continue <span aria-hidden="true">→</span>
+              </button>
+              {submitted && (
+                <p className="form-message" role="status">
+                  Your details are ready. Account access will be available soon.
+                </p>
+              )}
+            </form>
+          </section>
+        </div>
+      )}
+    </main>
   )
 }
 
