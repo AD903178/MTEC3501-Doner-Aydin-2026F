@@ -59,3 +59,19 @@ Add this and any future chats to AI-transcript.md
 ### Assistant
 
 I’ve added this exchange to `docs/AI-transcript.md` and will continue recording future chats there.
+
+### User
+
+npm run dev is not working
+
+### Assistant
+
+Running `npm run dev` from the repository root fails because there is no root `package.json`. The app’s `dev` script is in [my-app/package.json](/workspaces/MTEC3501-Doner-Aydin-2026F/my-app/package.json).
+
+From the repository root, run:
+
+```bash
+npm --prefix my-app run dev
+```
+
+Or run `cd my-app` followed by `npm run dev`. Verified that the app-specific command starts the server and returns HTTP 200.
