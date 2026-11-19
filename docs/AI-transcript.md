@@ -1,5 +1,7 @@
 # Chat Transcript
 
+> **Ongoing instruction:** Append future chats to this transcript.
+
 ## November 12, 2026
 
 ### User
@@ -37,3 +39,23 @@ Or first enter the app folder, then run `npm run dev`. **`npm dev` isn’t the r
 ### User
 
 Can you reproduce our entire chats into a marked down file?
+
+## November 19, 2026
+
+### User
+
+Good job with the title screen, could you add some background music to the title page and any future screens?
+
+### Assistant
+
+Added an original, softly synthesized background loop and an app-level music control in [App.jsx](/workspaces/MTEC3501-Doner-Aydin-2026F/my-app/src/App.jsx). The music continues across future screens, and the control lets users play or pause it. Browsers require a click before audio can start.
+
+The music generator is in [backgroundMusic.js](/workspaces/MTEC3501-Doner-Aydin-2026F/my-app/src/backgroundMusic.js), with styling in [App.css](/workspaces/MTEC3501-Doner-Aydin-2026F/my-app/src/App.css). Build and lint both pass.
+
+### User
+
+Add this and any future chats to AI-transcript.md
+
+### Assistant
+
+I’ve added this exchange to `docs/AI-transcript.md` and will continue recording future chats there.

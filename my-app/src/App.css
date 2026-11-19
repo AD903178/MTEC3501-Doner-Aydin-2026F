@@ -88,9 +88,72 @@
 }
 
 .topbar-note {
+  margin-right: 120px;
   color: #898795;
   font-size: 12px;
   letter-spacing: 0.04em;
+}
+
+.music-control {
+  position: fixed;
+  z-index: 10;
+  top: 24px;
+  right: max(calc((100vw - 1120px) / 2), clamp(16px, 6vw, 88px));
+}
+
+.music-toggle {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid rgba(206, 199, 230, 0.18);
+  border-radius: 12px;
+  color: #d3cfdf;
+  background: rgba(255, 255, 255, 0.035);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.music-toggle:hover,
+.music-toggle.is-playing {
+  border-color: rgba(173, 150, 255, 0.42);
+  color: #c5b7ff;
+  background: rgba(149, 115, 255, 0.1);
+}
+
+.music-toggle:focus-visible {
+  outline: 2px solid #bdadff;
+  outline-offset: 4px;
+}
+
+.music-toggle:disabled {
+  cursor: wait;
+}
+
+.music-toggle-icon {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.music-error {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 8px);
+  right: 0;
+  width: max-content;
+  max-width: min(280px, 80vw);
+  padding: 9px 11px;
+  border: 1px solid rgba(206, 120, 139, 0.35);
+  border-radius: 10px;
+  color: #f0b5c2;
+  background: #1b1a27;
+  font-size: 11px;
+  line-height: 1.5;
 }
 
 .welcome-card {
@@ -441,8 +504,21 @@
   }
 
   .topbar-note {
-    max-width: 150px;
+    max-width: 120px;
+    margin-right: 110px;
     text-align: right;
+    font-size: 10px;
+  }
+
+  .music-control {
+    top: 20px;
+    right: 16px;
+  }
+
+  .music-toggle {
+    min-height: 36px;
+    gap: 5px;
+    padding: 0 9px;
     font-size: 10px;
   }
 
@@ -470,6 +546,12 @@
 
   .auth-dialog {
     padding: 30px 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .topbar-note {
+    display: none;
   }
 }
 
