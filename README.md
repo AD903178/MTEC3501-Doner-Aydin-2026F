@@ -99,6 +99,11 @@ See [`docs/README-labels.md`](docs/README-labels.md) for a recommended label tax
 
 ---
 
-## Documentation Philosophy
+## Least Viable Product (LVP)
 
-This repository is intentionally light on placeholder content. Its folder structure is meant to teach organization by making the project's architecture legible. You may evolve this structure as your project develops — if you significantly change it, please update this README to describe the new structure.
+The Least Viable Product (LVP) I intend to deliver next semester in ENT 4501 is a music video (MV) using a sample created on my app/website and creating an original beat with it. I was inspired by someone's Culmination Project being a music video. I love music and the music videos alongside it, plus film (specifically horror), and always dreamt of making a theatric music video.
+
+
+## Inspiration for LVP
+
+The inspiration for my LVP is someone who also combines their love of film and music to makes these theatrical music videos, they are a heavy metal band called Ice Nine Kills. They combine their love of horror and heavy metal and create these songs and super theatrical music videos based on a horror IP (Intellectual Property) or any IP. For example, they created a song for the horror game called Dead By Daylight for their 10th Anniversary. They not only created a song for Dead By Daylight, but they also created a super theatrical music video using gameplay using the game's main character played by the lead vocalist of the band, and the bands' original character, which is in their ongoing storyline which includes the likes of Tony Hawk and Matthew Lillard, and real life cinematography. 
